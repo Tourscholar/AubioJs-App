@@ -79,9 +79,9 @@ class Application {
     this.updateFrequencyBars();
 
     // TODO: implement auto mode
-    // document.querySelector(".auto input")?.addEventListener("change", () => {
-    //   this.notes.toggleAutoMode();
-    // });
+    document.querySelector(".auto input")?.addEventListener("change", () => {
+      this.notes.toggleAutoMode();
+    });
   }
   updateFrequencyBars() {
     if (this.tuner.analyser) {

@@ -101,14 +101,14 @@ class Notes {
     }
   }
 
-  //TODO: implement this
-  // toggleAutoMode() {
-  //   if (!this.isAutoMode) {
-  //     this.tuner.stopOscillator();
-  //   }
-  //   this.clearActive();
-  //   this.isAutoMode = !this.isAutoMode;
-  // }
+  // TODO: implement this
+  toggleAutoMode() {
+    if (!this.isAutoMode) {
+      this.tuner.stopOscillator();
+    }
+    this.clearActive();
+    this.isAutoMode = !this.isAutoMode;
+  }
 }
 
 export default Notes;
