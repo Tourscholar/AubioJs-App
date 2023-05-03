@@ -1,4 +1,4 @@
-import aubio from "aubiojs";
+import aubio from "aubio-js-wasm";
 
 declare global {
   interface Window {

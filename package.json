@@ -18,7 +18,7 @@
     "vite": "^4.1.0"
   },
   "dependencies": {
-    "aubiojs": "^0.2.1",
+    "aubio-js-wasm": "^1.0.0",
     "sweetalert2": "^11.7.3"
   },
   "lint-staged": {
